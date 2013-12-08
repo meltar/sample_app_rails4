@@ -6,12 +6,16 @@ gem 'rails', '4.0.2'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+	gem 'guard-rspec', '2.5.0'
 end
 
 # Test
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+	
+	# Linux
+	gem 'libnotify', '0.8.0'
 end
 
 # Gems used only for assets and not required
