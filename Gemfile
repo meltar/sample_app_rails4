@@ -41,3 +41,6 @@ end
 
 # Styling
 gem 'bootstrap-sass', '2.3.2.0'
+
+# Password encryption
+gem 'bcrypt-ruby', '3.1.2'
