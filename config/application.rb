@@ -61,5 +61,8 @@ module SampleAppRail4
 
 		# Asset pipeline compatibility
 		config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+		# Enforce locales
+		I18n.enforce_available_locales = true
   end
 end
