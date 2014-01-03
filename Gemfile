@@ -48,3 +48,6 @@ gem 'bootstrap-sass', '2.3.2.0'
 
 # Password encryption
 gem 'bcrypt-ruby', '3.1.2'
+
+# User generation
+gem 'faker', '1.1.2'
