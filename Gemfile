@@ -51,3 +51,7 @@ gem 'bcrypt-ruby', '3.1.2'
 
 # User generation
 gem 'faker', '1.1.2'
+
+# Paginate
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
